@@ -1,0 +1,24 @@
+package diagnostico;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Jessica Ivonne Sanchez Tejeda
+ */
+public class Ejercicio2 {
+    public static void main (String[] args) {
+Scanner teclado=new Scanner(System.in);
+System.out.print("Ingrese el tamaño de una matriz:");
+int n=teclado.nextInt(); 
+for(int i=0; i<=n; i++){
+for(int k=n-1; k>0;k--){
+System.out.print(" ");
+}
+for (int k=0;k<i;k++){
+System.out.print(" *");
+}
+System.out.println("");
+}
+}
+}
